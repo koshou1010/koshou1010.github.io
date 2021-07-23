@@ -1,26 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <!-- meta標籤 -->
-  <meta charset="UTF-8">
-  <meta name="description" content="說明文字" />
-  <meta name="author" content="Koshou" />
-  <meta name="keywords" content="Koshou, MachineLearning, 機器學習, 教學" />
-  <meta name="viewport" content="width = device-width, initial-scale=1.0" />
-  <title>html test</title>
-</head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Simple Grid Website Template</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/jquery.scrollTo-min.js'></script>
+<script type='text/javascript' src='js/jquery.localscroll-min.js'></script>
+<script type="text/javascript">
+$(document).ready(function () {
+$.localScroll();
+});
+</script> 
+</head>   
 <body>
-  <P> <b>Welcome 文字跳動框</b></P> <!-- <b></b> 粗體 -->
-  <hr /> <!-- <hr/>分割線 -->
-  <div style=" text-align:center;widht:300px;line-height:60px;font-size:50px ; background-color : lightblue ; border :1px; ">
-     Koshou Programing & Coding <br>Blog 
-     <div style=" padding : 20px; background-color: white; border: 1px;">
-     Home
-     </div>
-     <div style=" padding: 500px 20px 20px 20px ; background-color: lightblue; border :1px ;">
-      down
-     </div>
-  </div>
+
+<div id="templatemo_wrapper">
+    
+    <div id="templatmeo_menu">
+    	<ul>
+        	<li><a href="#home" class="home">
+                <div style="font-size:16px ;padding:17px 3px 15px 75px;border:0px black solid;">
+                Home
+                </div>
+                <span></span>
+            </a></li>
+            <li><a href="#article" class="article">
+                <div style="font-size:16px ;padding:17px 3px 15px 75px;border:0px black solid;">
+                Article
+                </div>
+                <span></span>
+            </a></li>
+		</ul>
+    </div>
+    
+    <div id="templatemo_main">
+    	<div id="home" class="main_box">
+        	<h1>Welcome to Koshou's Programming & Coding Blog</h1>
+        	<div class="col col_23">
+            	<img src="images/homefig.jpeg" alt="image" class="img_frame" />
+                <p><em>As a Machine Learning Engineer</em></p>
+                <p>my background </p>
+                <div class="cleaner h40"></div>
+                <h3>not yet think about</h3>
+                <ul class="tmo_list">
+                    <li>just</li>
+                    <li>like</li>
+                    <li>this</li>
+                    <li>list</li>
+                    <li>nothing</li>
+                </ul>
+			</div>
+            <div class="col col_13 no_margin_right">
+            	<h3>Category</h3>
+                <blockquote>
+                    <cite>title -<span>abstract</span></cite>
+                    <p>context</p>
+				</blockquote>
+                
+                
+                <div class="cleaner h40"></div>
+                
+            	<h3>Github</h3>
+                <ul class="github_summary">
+                	<li>Github裡的repo放了很多從我開始寫code的一些紀錄. <a href="#">https://github.com/koshou1010</a></li>
+                </ul>
+            </div>
+            <div class="cleaner"></div>
+            <a href="#templatemo_header" class="gototop">Go To Top</a>
+            <div class="cleaner"></div>
+		</div> <!-- END of home -->
+        
+    </div> <!-- END of -->
+    
+</div> 
+<!-- templatemo 354 smiple grid -->
 </body>
 </html>
