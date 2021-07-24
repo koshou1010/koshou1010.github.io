@@ -22,7 +22,8 @@ $.localScroll();
     <div id="templatmeo_menu">
     	<ul>
         	<li><a href="#home" class="home">
-                <div style="font-size:16px ;padding:17px 3px 15px 75px;border:0px black solid;">
+                <div style="font-size:16px ;padding:17px 3px 15px 75px;border:0px black solid;"onclick="location.href=
+                'index.html'">
                 Home
                 </div>
                 <span></span>
@@ -47,32 +48,31 @@ $.localScroll();
     	<div id="home" class="main_box">
         	<h1>Welcome to Koshou's Programming & Coding Blog</h1>
         	<div class="col col_homeleft">
-            	<img src="images/homefig.png" alt="image" class="img_frame" />
-                <p><em>As a Machine Learning Engineer</em></p>
-                <p>my background </p>
-                <div class="cleaner h40"></div>
-                <h3>not yet think about</h3>
-                <ul class="tmo_list">
-                    <li>just</li>
-                    <li>like</li>
-                    <li>this</li>
-                    <li>list</li>
-                    <li>nothing</li>
-                </ul>
+                <div  id = "article_main" class = "article-inner">
+                    <div class="article-header">
+                        <h3>第一篇文章</h3>
+                    </div>     
+                <div class="article-precontext">    
+                    <h5>摘要</h5>
+                    <h5>摘要</h5>
+                    <h5>摘要</h5>
+                </div>  
+                <div class="article-contextbtn">    
+                    <a href="article/20210724.html"><h6>read more</h6></a>
+                </div>             
+                </div>
 			</div>
             <div class="col col_homeright no_margin_right">
             	<h3>Category</h3>
-                <blockquote>
-                    <cite>title -<span>abstract</span></cite>
-                    <p>context</p>
-				</blockquote>
-                
-                
+                <ul style="padding-left: 0;">
+                    <li><p>經驗分享</p></li>
+                    <li><p>學習筆記</p></li>
+                </ul>
                 <div class="cleaner h40"></div>
-                
+
             	<h3>Github</h3>
                 <ul class="github_summary">
-                	<li>Github裡的repo放了很多從我開始寫code的一些紀錄. <a href="#">https://github.com/koshou1010</a></li>
+                	<li><p>Github裡的repo放了很多從我開始寫code的一些紀錄. <a href="https://github.com/koshou1010/">https://github.com/koshou1010</a></p></li>
                 </ul>
             </div>
             <div class="cleaner"></div>
