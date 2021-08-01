@@ -37,6 +37,10 @@ h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
 h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
 h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
 
+h12, h22, h32, h42, h52, h62 { color: #e5bb58; font-weight: normal; }
+h32 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h52 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+
 .cleaner { clear: both }
 .h10 { height: 10px }
 .h20 { height: 20px }
@@ -93,12 +97,12 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
 #article_main {
 	height: 150px;
 	padding: 5px 0;
-	background: #1d1d1f;) 
+	background: #1d1d1f;
 }
 #article_context {
-	height: 500px;
+	height: 700px;
 	padding: 5px 0;
-	background: #1d1d1f;) 
+	background: #1d1d1f; 
 }
 
 #templatmeo_menu ul { margin: 0; padding: 0; list-style: none }
@@ -134,8 +138,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
 #gallery li a.no_margin_right { margin-right: 0 }
 
 
-.github_summary { margin: 0; padding: 0; list-style: none }
-.github_summary li { margin: 0 0 20px }
+
+
 
 .col { float: left; margin-right: 40px }
 .aboutcol { float: left; margin-right: 80px }
